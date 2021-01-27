@@ -1,0 +1,10 @@
+Installs the react bundle
+
+react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+
+
+Useful commands:
+yarn install
+yarn upgrade
+npm install -g npm
+npm i react@latest
