@@ -83,10 +83,10 @@ dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'
     if ("${sdkFlavor}" == "${"prod"}") {
-        implementation 'com.netcore.android:smartech-nudges:' + "${hanselV}"
+        api 'com.netcore.android:smartech-nudges:' + "${hanselV}"
         //implementation 'com.netcore.android:smartech-sdk:' + "${smartechV}"
     } else {
-        implementation 'com.netcore.android:smartech-nudgesstage:' + "${hanselV}"
+        api 'com.netcore.android:smartech-nudgesstage:' + "${hanselV}"
         //implementation 'com.netcore.android:smartech-sdkstage:' + "${smartechV}"
     }
 }
