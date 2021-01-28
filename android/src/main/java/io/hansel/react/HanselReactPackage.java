@@ -21,6 +21,8 @@ public class HanselReactPackage implements ReactPackage {
         modules.add(new HanselRn(reactContext));
         modules.add(new HanselUserRn(reactContext));
         modules.add(new HanselLogsRn(reactContext));
+        modules.add(new HanselConfigsRn(reactContext));
+        modules.add(new HanselTrackerRn(reactContext));
         return modules;
     }
 
