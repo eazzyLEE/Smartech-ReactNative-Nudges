@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3E7B58A1CC2AC0600A0062D /* SmartechReactNativeNudges.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* SmartechReactNativeNudges.m */; };
+		6C86722825C3E7C600121658 /* HanselRnSyncStateListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86721825C3E7C600121658 /* HanselRnSyncStateListener.m */; };
+		6C86722925C3E7C600121658 /* HanselConfigsRn.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86721A25C3E7C600121658 /* HanselConfigsRn.m */; };
+		6C86722A25C3E7C600121658 /* HanselTrackerRn.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86721D25C3E7C600121658 /* HanselTrackerRn.m */; };
+		6C86722B25C3E7C600121658 /* HanselRnActionListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86721F25C3E7C600121658 /* HanselRnActionListener.m */; };
+		6C86722C25C3E7C600121658 /* HanselUserRn.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86722025C3E7C600121658 /* HanselUserRn.m */; };
+		6C86722D25C3E7C600121658 /* HanselRnEventsListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86722125C3E7C600121658 /* HanselRnEventsListener.m */; };
+		6C86722E25C3E7C600121658 /* HanselRnUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86722225C3E7C600121658 /* HanselRnUtils.m */; };
+		6C86722F25C3E7C600121658 /* HanselRn.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86722725C3E7C600121658 /* HanselRn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +31,22 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libSmartechReactNativeNudges.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSmartechReactNativeNudges.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E7B5881CC2AC0600A0062D /* SmartechReactNativeNudges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartechReactNativeNudges.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* SmartechReactNativeNudges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartechReactNativeNudges.m; sourceTree = "<group>"; };
+		6C86721825C3E7C600121658 /* HanselRnSyncStateListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanselRnSyncStateListener.m; sourceTree = "<group>"; };
+		6C86721925C3E7C600121658 /* HanselUserRn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanselUserRn.h; sourceTree = "<group>"; };
+		6C86721A25C3E7C600121658 /* HanselConfigsRn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanselConfigsRn.m; sourceTree = "<group>"; };
+		6C86721B25C3E7C600121658 /* HanselRnUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanselRnUtils.h; sourceTree = "<group>"; };
+		6C86721C25C3E7C600121658 /* HanselConfigsRn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanselConfigsRn.h; sourceTree = "<group>"; };
+		6C86721D25C3E7C600121658 /* HanselTrackerRn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanselTrackerRn.m; sourceTree = "<group>"; };
+		6C86721E25C3E7C600121658 /* HanselRn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanselRn.h; sourceTree = "<group>"; };
+		6C86721F25C3E7C600121658 /* HanselRnActionListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanselRnActionListener.m; sourceTree = "<group>"; };
+		6C86722025C3E7C600121658 /* HanselUserRn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanselUserRn.m; sourceTree = "<group>"; };
+		6C86722125C3E7C600121658 /* HanselRnEventsListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanselRnEventsListener.m; sourceTree = "<group>"; };
+		6C86722225C3E7C600121658 /* HanselRnUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanselRnUtils.m; sourceTree = "<group>"; };
+		6C86722325C3E7C600121658 /* HanselTrackerRn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanselTrackerRn.h; sourceTree = "<group>"; };
+		6C86722425C3E7C600121658 /* HanselRnActionListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanselRnActionListener.h; sourceTree = "<group>"; };
+		6C86722525C3E7C600121658 /* HanselRnEventsListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanselRnEventsListener.h; sourceTree = "<group>"; };
+		6C86722625C3E7C600121658 /* HanselRnSyncStateListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanselRnSyncStateListener.h; sourceTree = "<group>"; };
+		6C86722725C3E7C600121658 /* HanselRn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanselRn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +71,22 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				B3E7B5881CC2AC0600A0062D /* SmartechReactNativeNudges.h */,
-				B3E7B5891CC2AC0600A0062D /* SmartechReactNativeNudges.m */,
+				6C86721C25C3E7C600121658 /* HanselConfigsRn.h */,
+				6C86721A25C3E7C600121658 /* HanselConfigsRn.m */,
+				6C86721E25C3E7C600121658 /* HanselRn.h */,
+				6C86722725C3E7C600121658 /* HanselRn.m */,
+				6C86722425C3E7C600121658 /* HanselRnActionListener.h */,
+				6C86721F25C3E7C600121658 /* HanselRnActionListener.m */,
+				6C86722525C3E7C600121658 /* HanselRnEventsListener.h */,
+				6C86722125C3E7C600121658 /* HanselRnEventsListener.m */,
+				6C86722625C3E7C600121658 /* HanselRnSyncStateListener.h */,
+				6C86721825C3E7C600121658 /* HanselRnSyncStateListener.m */,
+				6C86721B25C3E7C600121658 /* HanselRnUtils.h */,
+				6C86722225C3E7C600121658 /* HanselRnUtils.m */,
+				6C86722325C3E7C600121658 /* HanselTrackerRn.h */,
+				6C86721D25C3E7C600121658 /* HanselTrackerRn.m */,
+				6C86721925C3E7C600121658 /* HanselUserRn.h */,
+				6C86722025C3E7C600121658 /* HanselUserRn.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +130,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
@@ -112,7 +148,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E7B58A1CC2AC0600A0062D /* SmartechReactNativeNudges.m in Sources */,
+				6C86722925C3E7C600121658 /* HanselConfigsRn.m in Sources */,
+				6C86722D25C3E7C600121658 /* HanselRnEventsListener.m in Sources */,
+				6C86722F25C3E7C600121658 /* HanselRn.m in Sources */,
+				6C86722825C3E7C600121658 /* HanselRnSyncStateListener.m in Sources */,
+				6C86722B25C3E7C600121658 /* HanselRnActionListener.m in Sources */,
+				6C86722A25C3E7C600121658 /* HanselTrackerRn.m in Sources */,
+				6C86722E25C3E7C600121658 /* HanselRnUtils.m in Sources */,
+				6C86722C25C3E7C600121658 /* HanselUserRn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
