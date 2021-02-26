@@ -33,7 +33,7 @@ RCT_EXPORT_MODULE();
     }
 }
 
-RCT_EXPORT_METHOD(getMaps: (RCTResponseSenderBlock)callback) {
+RCT_EXPORT_METHOD(getInteractionMaps: (RCTResponseSenderBlock)callback) {
     @try {
         [HanselRnUtils returnResult:[Hansel getMaps] withCallback:callback];
     } @catch (NSException *exception) {

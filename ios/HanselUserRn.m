@@ -12,7 +12,7 @@
 
 RCT_EXPORT_MODULE();
 
-RCT_EXPORT_METHOD(putStringAttributeForKey: (NSString*) key attribute: (NSString*) attribute) {
+RCT_EXPORT_METHOD(putStringAttribute: (NSString*) key attribute: (NSString*) attribute) {
     @try {
         [[Hansel getUser] putStringAttribute:attribute forKey:key];
     } @catch (NSException *exception) {
@@ -20,7 +20,7 @@ RCT_EXPORT_METHOD(putStringAttributeForKey: (NSString*) key attribute: (NSString
     }
 }
 
-RCT_EXPORT_METHOD(putDoubleAttributeForKey: (NSString*) key attribute: (double) attribute) {
+RCT_EXPORT_METHOD(putDoubleAttribute: (NSString*) key attribute: (double) attribute) {
     @try {
         [[Hansel getUser] putDoubleAttribute:attribute forKey:key];
     } @catch (NSException *exception) {
@@ -28,7 +28,7 @@ RCT_EXPORT_METHOD(putDoubleAttributeForKey: (NSString*) key attribute: (double) 
     }
 }
 
-RCT_EXPORT_METHOD(putBoolAttributeForKey: (NSString*) key attribute: (BOOL) attribute) {
+RCT_EXPORT_METHOD(putBooleanAttribute: (NSString*) key attribute: (BOOL) attribute) {
     @try {
         [[Hansel getUser] putBoolAttribute:attribute forKey:key];
     } @catch (NSException *exception) {

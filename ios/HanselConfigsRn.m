@@ -28,7 +28,7 @@ RCT_EXPORT_METHOD(getDouble: (NSString* _Nonnull) key withDefaultValue: (NSNumbe
     }
 }
 
-RCT_EXPORT_METHOD(getBool: (NSString* _Nonnull) key withDefaultValue: (BOOL) defaultValue callback:(RCTResponseSenderBlock)callback) {
+RCT_EXPORT_METHOD(getBoolean: (NSString* _Nonnull) key withDefaultValue: (BOOL) defaultValue callback:(RCTResponseSenderBlock)callback) {
     @try {
         [HanselRnUtils returnResult:[NSNumber numberWithBool:[HanselConfigs getBool:key withDefaultValue:defaultValue]] withCallback:callback];
     } @catch (NSException *exception) {
@@ -36,7 +36,7 @@ RCT_EXPORT_METHOD(getBool: (NSString* _Nonnull) key withDefaultValue: (BOOL) def
     }
 }
 
-RCT_EXPORT_METHOD(getJSON: (NSString* _Nonnull) key withDefaultValue: (NSDictionary*) defaultValue callback:(RCTResponseSenderBlock)callback) {
+RCT_EXPORT_METHOD(getJSONObject: (NSString* _Nonnull) key withDefaultValue: (NSDictionary*) defaultValue callback:(RCTResponseSenderBlock)callback) {
     @try {
         [HanselRnUtils returnResult:[HanselConfigs getJSON:key withDefaultValue:defaultValue] withCallback:callback];
     } @catch (NSException *exception) {

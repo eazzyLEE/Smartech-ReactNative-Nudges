@@ -1,7 +1,7 @@
 {
   "name": "smartech-reactnative-nudges",
   "title": "Smartech Nudges React Native Module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This package contains bridges to integrate SmartechNudges native sdk in React Native App.",
   "main": "index.js",
   "files": [
